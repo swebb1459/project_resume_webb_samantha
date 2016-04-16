@@ -34,13 +34,44 @@ section {
     width: 100%;
 }
 
+section p {
+    max-width: 800px;
+    margin: auto;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
 }
 
-#education ul li {
+ul li {
+    padding: .2em 0;
+    max-width: 800px;
+    margin: auto;
+}
+
+#skills ul li {
     display: block;
+}
+
+@media all and (min-width: 500px) {
+    #skills ul li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+}
+
+@media all and (min-width: 880px) {
+    #skills ul li {
+        padding: 0 10px;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #skills ul li {
+        width: calc(100%/7);
+        padding: 0;
+    }
 }
 
 figure {
