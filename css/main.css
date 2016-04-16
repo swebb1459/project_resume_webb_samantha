@@ -12,3 +12,7 @@ html {
     max-width: 1200px;
     margin: auto;
 }
+
+.main section {
+    padding: 10px;
+}
