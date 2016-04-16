@@ -50,6 +50,15 @@ ul li {
     margin: auto;
 }
 
+#more_button {
+    padding: 10px;
+    width: 200px;
+    margin: 10px auto 0;
+    border: 1px solid #000000;
+    background: #000000;
+    color: #ffffff;
+}
+
 #skills ul li {
     display: block;
 }
