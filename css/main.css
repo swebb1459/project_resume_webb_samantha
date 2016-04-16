@@ -15,8 +15,13 @@ html {
 
 .main section {
     padding: 0px 10px;
+    width: 100%;
 }
 
 h1, h2 {
     text-align: center;
+}
+
+img {
+    width: 100%;
 }
