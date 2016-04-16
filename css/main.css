@@ -8,10 +8,18 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-size: 1em;
+}
+
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0px auto;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
 
 .main section {
     padding: 0px 10px;
@@ -21,8 +29,12 @@ h1, h2 {
     text-align: center;
 }
 
-img {
+# content img {
     width: 100%;
     max-width: 400px;
     margin: auto;
+}
+
+#education ul li {
+    display: block;
 }
