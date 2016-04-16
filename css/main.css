@@ -16,3 +16,7 @@ html {
 .main section {
     padding: 0px 10px;
 }
+
+h1, h2 {
+    text-align: center;
+}
