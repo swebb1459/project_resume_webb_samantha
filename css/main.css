@@ -15,7 +15,6 @@ html {
 
 .main section {
     padding: 0px 10px;
-    width: 100%;
 }
 
 h1, h2 {
@@ -24,4 +23,6 @@ h1, h2 {
 
 img {
     width: 100%;
+    max-width: 400px;
+    margin: auto;
 }
