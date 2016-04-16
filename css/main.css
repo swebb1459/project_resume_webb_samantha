@@ -26,6 +26,9 @@ body {
     }
 }
 
+h2 {
+    border-bottom: 1px solid #000000;
+}
 
 section {
     width: 100%;
