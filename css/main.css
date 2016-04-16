@@ -17,19 +17,20 @@ body {
     margin: 0px auto;
 }
 
+section {
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
-
-.main section {
-    padding: 0px 10px;
 }
 
 h1, h2 {
     text-align: center;
 }
 
-# content img {
+img {
     width: 100%;
     max-width: 400px;
     margin: auto;
