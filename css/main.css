@@ -19,6 +19,13 @@ body {
     background: rgba(255,255,255,0.7);
 }
 
+@media all and (min-width: 800px) {
+    .container {
+        padding: 10px 50px;
+    }
+}
+
+
 section {
     width: 100%;
 }
@@ -32,7 +39,8 @@ h1, h2 {
     text-align: center;
 }
 
-#contact {
+#education ul li {
+    display: block;
 }
 
 figure {
@@ -52,6 +60,6 @@ img {
     margin: auto;
 }
 
-#education ul li {
-    display: block;
+#contact {
+    text-align: center;
 }
