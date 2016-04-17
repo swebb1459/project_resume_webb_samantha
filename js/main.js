@@ -5,8 +5,8 @@ $(document).ready(function() {
 
     $('#more_button').click(function(){
 
-        var quotes = new Array('adsf', 'hrhrtghtrrtn', 'drhghdsfgdfg'),
+        var quotes = new Array('"Her work is professional and clean."<br />&mdash;Olivia Jensen', '"Great person to work with. It was super fun."<br />&mdash;Sarah P.', '"Samantha is awesome. Her work is next level great!"<br /> &mdash;L.J. Vollmar'),
         random = quotes[Math.floor( Math.random() * quotes.length)];
-        $('#testimonial').text( random );
+        $('#testimonial').html( random );
     });
 });
