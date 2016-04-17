@@ -60,6 +60,10 @@ ul li {
     color: #ffffff;
 }
 
+#more_button:hover {
+    cursor: pointer;
+}
+
 #skills ul li {
     display: block;
 }
