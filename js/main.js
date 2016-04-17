@@ -4,6 +4,9 @@ $(document).ready(function() {
     $('.focuspoint').focusPoint();
 
     $('#more_button').click(function(){
-        $('#testimonial').text('sdfadsfasddsads');
+
+        var quotes = new Array('adsf', 'hrhrtghtrrtn', 'drhghdsfgdfg'),
+        random = quotes[Math.floor( Math.random() * quotes.length)];
+        $('#testimonial').text( random );
     });
 });
