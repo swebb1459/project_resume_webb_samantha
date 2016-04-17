@@ -55,9 +55,10 @@ ul li {
     padding: 10px;
     width: 200px;
     margin: 10px auto 0;
-    border: 1px solid #000000;
-    background: #000000;
+    background: #ffa500;
     color: #ffffff;
+    -webkit-border-radius: 0 10px 10px 10px;
+    border-radius: 0 10px 10px 10px;
 }
 
 #more_button:hover {
